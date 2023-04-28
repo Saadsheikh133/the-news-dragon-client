@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 
 const CategoryNews = ({ news }) => {
     const { _id, title, author, image_url, details, rating, total_view } = news;
-    console.log(news)
     return (
         <div className='mt-4'>
             <Card>
